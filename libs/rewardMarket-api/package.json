@@ -1,0 +1,38 @@
+{
+  "name": "rewardmarket-api",
+  "version": "0.0.1",
+  "description": "API for RewardMarket",
+  "main": "src/index.js",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo $PWD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inkeyblue/pointRewardDapp.git"
+  },
+  "keywords": [
+    "api",
+    "marketplace",
+    "rewards"
+  ],
+  "authors": [
+    "InkeyBlue"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inkeyblue/pointRewardDapp/issues"
+  },
+  "homepage": "https://github.com/inkeyblue/pointRewardDapp#readme",
+  "devDependencies": {
+    "@types/web3": "^1.2.2"
+  },
+  "dependencies": {
+    "ethers": "^5.6.4",
+    "web3": "^1.7.3"
+  }
+}
